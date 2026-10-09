@@ -1,6 +1,9 @@
 {
   "version": 2,
+  "functions": {
+    "api/app.js": { "includeFiles": "private/**" }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/public/index.html" }
+    { "source": "/(.*)", "destination": "/api/app" }
   ]
 }
